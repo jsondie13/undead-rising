@@ -1,6 +1,9 @@
 {
   "id": "undead-rising",
   "title": "Undead Rising",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
