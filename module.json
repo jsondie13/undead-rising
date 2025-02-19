@@ -1,0 +1,40 @@
+{
+  "id": "undead-rising",
+  "title": "Undead Rising",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A collection of new dedication feats focused on undead, adding the Graveknight as a possible Archetype.",
+  "authors": [
+    {
+      "name": "jsondie13",
+      "discord": "Ornaga",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "graveknight-dedication",
+      "label": "Graveknight-Dedication",
+      "path": "packs/graveknight-dedication",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
