@@ -4,7 +4,7 @@
   "url": "https://github.com/jsondie13/undead-rising",
   "manifest": "https://github.com/jsondie13/undead-rising/releases/latest/download/module.json",
   "download": "https://github.com/jsondie13/undead-rising/releases/latest/download/module.zip",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "compatibility": {
     "minimum": "11",
     "verified": "13"
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "description": "A collection of new dedication feats focused on undead, adding the Graveknight as a possible Archetype.",
+  "description": "<p>A collection of new dedication feats focused on undead, adding the Graveknight and a variant Lich Archetype's.</p>",
   "authors": [
     {
       "name": "jsondie13",
@@ -32,12 +32,34 @@
       "label": "Graveknight-Dedication",
       "path": "packs/graveknight-dedication",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
+      }
+    },
+    {
+      "name": "lich-dedication",
+      "label": "Lich-Dedication",
+      "path": "packs/lich-dedication",
+      "type": "Item",
       "system": "pf2e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "undead-rising-npcs",
+      "label": "Undead Rising NPCs",
+      "path": "packs/undead-rising-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ]
+  ],
+  "flags": {}
 }
