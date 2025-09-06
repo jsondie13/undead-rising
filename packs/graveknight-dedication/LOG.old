@@ -1,24 +1,8 @@
-2025/08/19-21:19:37.972 1e10 Recovering log #74
-2025/08/19-21:19:37.973 1e10 Level-0 table #76: started
-2025/08/19-21:19:37.976 1e10 Level-0 table #76: 6077 bytes OK
-2025/08/19-21:19:37.985 1e10 Delete type=0 #74
-2025/08/19-21:19:37.985 1e10 Delete type=3 #73
-2025/08/19-21:58:14.020 934 Level-0 table #79: started
-2025/08/19-21:58:14.025 934 Level-0 table #79: 31783 bytes OK
-2025/08/19-21:58:14.029 934 Delete type=0 #77
-2025/08/19-21:58:14.044 934 Manual compaction at level-0 from '!items!16GTBr8mXFZocUtq' @ 72057594037927935 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at '!items!onSbVSwulLCkDijA' @ 460 : 1
-2025/08/19-21:58:14.044 934 Compacting 2@0 + 0@1 files
-2025/08/19-21:58:14.049 934 Generated table #80@0: 31 keys, 26042 bytes
-2025/08/19-21:58:14.049 934 Compacted 2@0 + 0@1 files => 26042 bytes
-2025/08/19-21:58:14.054 934 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/08/19-21:58:14.054 934 Delete type=2 #76
-2025/08/19-21:58:14.054 934 Delete type=2 #79
-2025/08/19-21:58:14.055 934 Manual compaction at level-0 from '!items!onSbVSwulLCkDijA' @ 460 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at (end)
-2025/08/19-21:58:14.055 934 Manual compaction at level-1 from '!items!16GTBr8mXFZocUtq' @ 72057594037927935 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at '!items!zavOx4l6Kw1KJkaK' @ 472 : 1
-2025/08/19-21:58:14.055 934 Compacting 1@1 + 1@2 files
-2025/08/19-21:58:14.063 934 Generated table #81@1: 23 keys, 25837 bytes
-2025/08/19-21:58:14.063 934 Compacted 1@1 + 1@2 files => 25837 bytes
-2025/08/19-21:58:14.067 934 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/19-21:58:14.067 934 Delete type=2 #62
-2025/08/19-21:58:14.067 934 Delete type=2 #80
-2025/08/19-21:58:14.089 934 Manual compaction at level-1 from '!items!zavOx4l6Kw1KJkaK' @ 472 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at (end)
+2025/09/05-18:25:32.487 3978 Recovering log #97
+2025/09/05-18:25:32.498 3978 Delete type=0 #97
+2025/09/05-18:25:32.498 3978 Delete type=3 #95
+2025/09/05-19:19:38.495 2008 Level-0 table #102: started
+2025/09/05-19:19:38.496 2008 Level-0 table #102: 0 bytes OK
+2025/09/05-19:19:38.501 2008 Delete type=0 #100
+2025/09/05-19:19:38.511 2008 Manual compaction at level-0 from '!items!16GTBr8mXFZocUtq' @ 72057594037927935 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at (end)
+2025/09/05-19:19:38.511 2008 Manual compaction at level-1 from '!items!16GTBr8mXFZocUtq' @ 72057594037927935 : 1 .. '!items!zavOx4l6Kw1KJkaK' @ 0 : 0; will stop at (end)
